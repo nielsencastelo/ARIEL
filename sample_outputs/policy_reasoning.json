@@ -1,0 +1,28 @@
+{
+  "decision": "APPROVED",
+  "reason": "Todas as regras obrigatórias foram satisfeitas.",
+  "facts": {
+    "age": 16,
+    "urgent": true,
+    "consent": true,
+    "amount": 4200.0
+  },
+  "trace": [
+    {
+      "rule_id": "R1",
+      "description": "Valor máximo permitido sem comitê é R$ 5.000,00",
+      "passed": true
+    },
+    {
+      "rule_id": "R2",
+      "description": "Casos urgentes podem seguir fluxo acelerado",
+      "passed": true
+    },
+    {
+      "rule_id": "R3",
+      "description": "Menor de idade exige consentimento",
+      "passed": true
+    }
+  ],
+  "blockers": []
+}
